@@ -11,8 +11,10 @@ The project aims to explore different fine-tuning strategies to enhance the abil
 Below is a description of the key notebooks in this repository:
 
 - `experiment-notebooks/BART-base/bart_base_encoder.ipynb`:
-    - Training the bart base model by finetuning only the encoder layers
+    - Training the bart base model by finetuning only the encoder layers.
 
+- `experiment-notebooks/BART-base/bart_base_full_finetune.ipynb`:
+    - Training the bart base model by performing full-finetuning.
 ## Getting Started
 
 To run these notebooks, follow these steps:
