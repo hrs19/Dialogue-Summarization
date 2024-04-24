@@ -82,7 +82,7 @@ def get_base64_of_bin_file(bin_file):
     return base64.b64encode(data).decode()
 
 # Path to the background image
-BACKGROUND_IMAGE_PATH = os.path.join(CURRENT_DIR, 'background.jpg')
+BACKGROUND_IMAGE_PATH = os.path.join(CURRENT_DIR, 'assets','background.jpg')
 bg_image_base64 = get_base64_of_bin_file(BACKGROUND_IMAGE_PATH)
 st.set_page_config(page_title="Summarizer", page_icon="", layout="wide", )     
 
